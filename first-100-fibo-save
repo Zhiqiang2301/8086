@@ -1,0 +1,780 @@
+main33 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT33:
+mov bl,[fb33+si]
+call int_to_char33
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT33
+ret
+endp
+
+
+int_to_char33 proc
+add bl,48
+ret
+int_to_char33 endp  
+
+main34 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT34:
+mov bl,[fb34+si]
+call int_to_char34
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT34
+ret
+endp
+
+
+int_to_char34 proc
+add bl,48
+ret
+int_to_char34 endp  
+
+
+main35 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT35:
+mov bl,[fb35+si]
+call int_to_char35
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT35
+ret
+endp
+
+
+int_to_char35 proc
+add bl,48
+ret
+int_to_char35 endp    
+
+main36 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT36:
+mov bl,[fb36+si]
+call int_to_char36
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT36
+ret
+endp
+
+int_to_char36 proc
+add bl,48
+ret
+int_to_char36 endp     
+
+main37 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT37:
+mov bl,[fb37+si]
+call int_to_char37
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT37
+ret
+endp
+
+int_to_char37 proc
+add bl,48
+ret
+int_to_char37 endp   
+
+main38 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT38:
+mov bl,[fb38+si]
+call int_to_char38
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT38
+ret
+endp
+
+int_to_char38 proc
+add bl,48
+ret
+int_to_char38 endp  
+
+main39 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT39:
+mov bl,[fb39+si]
+call int_to_char39
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT39
+ret
+endp
+
+int_to_char39 proc
+add bl,48
+ret
+int_to_char39 endp  
+
+main40 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT40:
+mov bl,[fb40+si]
+call int_to_char40
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT40
+ret
+endp
+
+int_to_char40 proc
+add bl,48
+ret
+int_to_char40 endp    
+
+main41 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT41:
+mov bl,[fb41+si]
+call int_to_char41
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT41
+ret
+endp
+
+int_to_char41 proc
+add bl,48
+ret
+int_to_char41 endp
+
+main42 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT42:
+mov bl,[fb42+si]
+call int_to_char42
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT42
+ret
+endp
+
+int_to_char42 proc
+add bl,48
+ret
+int_to_char42 endp  
+
+main43 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT43:
+mov bl,[fb43+si]
+call int_to_char43
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT43
+ret
+endp
+
+int_to_char43 proc
+add bl,48
+ret
+int_to_char43 endp  
+
+main44 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT44:
+mov bl,[fb44+si]
+call int_to_char44
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT44
+ret
+endp
+
+int_to_char44 proc
+add bl,48
+ret
+int_to_char44 endp
+
+main45 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT45:
+mov bl,[fb45+si]
+call int_to_char45
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT45
+ret
+endp
+
+int_to_char45 proc
+add bl,48
+ret
+int_to_char45 endp  
+
+main46 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT46:
+mov bl,[fb46+si]
+call int_to_char46
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT46
+ret
+endp
+
+int_to_char46 proc
+add bl,48
+ret
+int_to_char46 endp   
+
+main47 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT47:
+mov bl,[fb47+si]
+call int_to_char47
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT47
+ret
+endp
+
+int_to_char47 proc
+add bl,48
+ret
+int_to_char47 endp 
+
+main48 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT48:
+mov bl,[fb48+si]
+call int_to_char48
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT48
+ret
+endp
+
+
+int_to_char48 proc
+add bl,48
+ret
+int_to_char48 endp  
+
+main49 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT49:
+mov bl,[fb49+si]
+call int_to_char49
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT49
+ret
+endp
+
+
+int_to_char49 proc
+add bl,48
+ret
+int_to_char49 endp  
+
+main50 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT50:
+mov bl,[fb50+si]
+call int_to_char50
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT50
+ret
+endp
+
+
+int_to_char50 proc
+add bl,48
+ret
+int_to_char50 endp         
+
+main51 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT51:
+mov bl,[fb51+si]
+call int_to_char51
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT51
+ret
+endp
+
+
+int_to_char51 proc
+add bl,48
+ret
+int_to_char51 endp 
+
+main52 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT52:
+mov bl,[fb52+si]
+call int_to_char52
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT52
+ret
+endp
+
+
+int_to_char52 proc
+add bl,48
+ret
+int_to_char52 endp  
+
+main53 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT53:
+mov bl,[fb53+si]
+call int_to_char53
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT53
+ret
+endp
+
+
+int_to_char53 proc
+add bl,48
+ret
+int_to_char53 endp  
+
+main54 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT54:
+mov bl,[fb54+si]
+call int_to_char54
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT54
+ret
+endp
+
+
+int_to_char54 proc
+add bl,48
+ret
+int_to_char54 endp   
+
+main55 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT55:
+mov bl,[fb55+si]
+call int_to_char55
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT55
+ret
+endp
+
+
+int_to_char55 proc
+add bl,48
+ret
+int_to_char55 endp 
+
+main56 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT56:
+mov bl,[fb56+si]
+call int_to_char56
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT56
+ret
+endp
+
+
+int_to_char56 proc
+add bl,48
+ret
+int_to_char56 endp  
+
+main57 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT57:
+mov bl,[fb57+si]
+call int_to_char57
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT57
+ret
+endp
+
+
+int_to_char57 proc
+add bl,48
+ret
+int_to_char57 endp 
+
+main58 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT58:
+mov bl,[fb58+si]
+call int_to_char58
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT58
+ret
+endp
+
+
+int_to_char58 proc
+add bl,48
+ret
+int_to_char58 endp   
+
+main59 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT59:
+mov bl,[fb59+si]
+call int_to_char59
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT59
+ret
+endp
+
+
+int_to_char59 proc
+add bl,48
+ret
+int_to_char59 endp
+
+main60 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT60:
+mov bl,[fb60+si]
+call int_to_char60
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT60
+ret
+endp
+
+
+int_to_char60 proc
+add bl,48
+ret
+int_to_char60 endp  
+
+main61 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT61:
+mov bl,[fb61+si]
+call int_to_char61
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT61
+ret
+endp
+
+
+int_to_char61 proc
+add bl,48
+ret
+int_to_char61 endp  
+
+main62 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT62:
+mov bl,[fb62+si]
+call int_to_char62
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT62
+ret
+endp
+
+
+int_to_char62 proc
+add bl,48
+ret
+int_to_char62 endp 
+
+main63 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT63:
+mov bl,[fb63+si]
+call int_to_char63
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT63
+ret
+endp
+
+
+int_to_char63 proc
+add bl,48
+ret
+int_to_char63 endp 
+
+main64 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT64:
+mov bl,[fb64+si]
+call int_to_char64
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT64
+ret
+endp
+
+
+int_to_char64 proc
+add bl,48
+ret
+int_to_char64 endp  
+
+main65 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT65:
+mov bl,[fb65+si]
+call int_to_char65
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT65
+ret
+endp
+
+
+int_to_char65 proc
+add bl,48
+ret
+int_to_char65 endp  
+
+main66 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT66:
+mov bl,[fb66+si]
+call int_to_char66
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT66
+ret
+endp
+
+
+int_to_char66 proc
+add bl,48
+ret
+int_to_char66 endp 
+
+main67 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT67:
+mov bl,[fb67+si]
+call int_to_char67
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT67
+ret
+endp
+
+
+int_to_char67 proc
+add bl,48
+ret
+int_to_char67 endp
+
+main68 proc
+mov ax,@data
+mov ds,ax
+mov cx,21
+mov si,0
+PRINT68:
+mov bl,[fb68+si]
+call int_to_char68
+mov dl,bl
+mov ah,2
+int 21h
+inc si
+loop PRINT68
+ret
+endp
+
+
+int_to_char68 proc
+add bl,48
+ret
+int_to_char68 endp
